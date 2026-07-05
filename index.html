@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Photo Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <button id="menuBtn">
+
+        <i class="fa-solid fa-bars"></i>
+
+    </button>
+
+    <div class="header-text">
+
+        <h1>My Photo Gallery</h1>
+
+        <p>Explore beautiful moments.</p>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= MOBILE MENU ================= -->
+
+<nav class="mobile-menu" id="mobileMenu">
+
+    <button class="filter-btn active"
+            data-filter="all">
+
+        All
+
+    </button>
+
+    <button class="filter-btn"
+            data-filter="nature">
+
+        Nature
+
+    </button>
+
+    <button class="filter-btn"
+            data-filter="travel">
+
+        Travel
+
+    </button>
+
+    <button class="filter-btn"
+            data-filter="animals">
+
+        Animals
+
+    </button>
+
+    <button class="filter-btn"
+            data-filter="food">
+
+        Food
+
+    </button>
+
+</nav>
+
+
+
+<!-- ================= SEARCH ================= -->
+
+<section class="search-section">
+
+    <div class="search-box">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search photos...">
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= DESKTOP FILTERS ================= -->
+
+<section class="filters">
+
+    <button class="filter-btn active"
+            data-filter="all">
+
+        All
+
+    </button>
+
+    <button class="filter-btn"
+            data-filter="nature">
+
+        Nature
+
+    </button>
+
+    <button class="filter-btn"
+            data-filter="travel">
+
+        Travel
+
+    </button>
+
+    <button class="filter-btn"
+            data-filter="animals">
+
+        Animals
+
+    </button>
+
+    <button class="filter-btn"
+            data-filter="food">
+
+        Food
+
+    </button>
+
+</section>
+
+
+
+<!-- ================= GALLERY ================= -->
+
+<section
+        class="gallery"
+        id="gallery">
+
+</section>
+
+
+
+<!-- ================= LIGHTBOX ================= -->
+
+<div
+    class="lightbox"
+    id="lightbox">
+
+    <span
+        class="close"
+        id="close">
+
+        &times;
+
+    </span>
+
+
+    <button
+        class="prev"
+        id="prev">
+
+        <i class="fa-solid fa-chevron-left"></i>
+
+    </button>
+
+
+    <img
+        id="lightbox-img"
+        src=""
+        alt="">
+
+
+    <button
+        class="next"
+        id="next">
+
+        <i class="fa-solid fa-chevron-right"></i>
+
+    </button>
+
+
+    <div class="caption">
+
+        <h2 id="imageTitle">
+
+            Image Title
+
+        </h2>
+
+        <p id="imageCategory">
+
+            Category
+
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 Photo Gallery | Designed & Developed by Khushi Singh
+
+    </p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
