@@ -21,7 +21,7 @@ const photos = [
     {
         title: "River Stream",
         category: "nature",
-        src: "photos/nature3.jpg"
+        src: "photos/Nature3.jpg"
     },
 
 
